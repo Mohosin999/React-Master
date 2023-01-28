@@ -4,7 +4,10 @@ import PropTypes from "prop-types";
 const Navbar = ({ title }) => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav
+        className="navbar navbar-expand-lg"
+        style={{ backgroundColor: "#ddd" }}
+      >
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             {title}

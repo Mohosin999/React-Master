@@ -3,6 +3,8 @@ const connectDB = require("./db");
 
 const app = express();
 
+app.use(express.json());
+
 app.get("/", (_req, res) => {
   res.send("Something Send");
 });
